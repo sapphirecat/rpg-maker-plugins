@@ -1,0 +1,3 @@
+for (const a of $gameParty.members()) {
+  if (a.isDeathStateAffected()) continue;
+  a.setHp(a.mhp); a.setMp(a.mmp); }
