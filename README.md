@@ -21,6 +21,24 @@ A further discussion of the code itself is written in
 [MV/inn-script-explained.md](MV/inn-script-explained.md),
 should you wish to adapt it to your needs.
 
+### [MV/SAPPHIRECAT\_ActionCancel.js](MV/SAPPHIRECAT_ActionCancel.js)
+Allows canceling a state-specific skill if the state is lifted.
+Ideal for use with Bobstah's [Battle Commands plugin](https://forums.rpgmakerweb.com/index.php?threads/bobstahs-battle-commands-customization-v2-2-1-updated-05-17-2017.46510/).
+Normally, if a state is removed between the command setup and the action,
+a command available only in the state will still be carried out.
+Using this plugin, it can be replaced with Attack.
+The skill must have a NoteTag such as:
+
+    <requiredStates:12,13>
+
+This will make the skill available only if the actor has states 12 or 13.
+If the actor loses all of these states before using the skill, they will use
+Attack instead.  Of course, a single state is also possible:
+
+    <requiredStates:12>
+
+The format is very precise for this plugin.  Do not change case or add spaces.
+
 ### [MV/SAPPHIRECAT\_EncounterRates.js](MV/SAPPHIRECAT_EncounterRates.js)
 Allows changing the encounter rates on maps via a NoteTag,
 based on switches and/or the party's minimum level.  For instance:
