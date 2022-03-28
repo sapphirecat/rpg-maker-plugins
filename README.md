@@ -1,6 +1,19 @@
 # rpg-maker-plugins
 RPG Maker MV plugins/scripts by sapphirecat
 
+## Download Files
+### All Files
+
+Look for the "Code" button just above the directory of files.
+Click it.  It opens a menu.  Use the "Download Zip" item at the bottom.
+You will now have all files in `rpg-maker-plugin-main.zip` file.
+Unzip this file and copy to your project (js/plugins/ folder for JS files.)
+
+### Single File
+Follow the link to the file.  Find and click the "Raw" button.
+Then right-click and "Save As" or use File menu - Save As.
+If the file is `.js` type, please be sure to name it correctly!
+
 ## Files
 
 ### [MV/inn-script.txt](MV/inn-script.txt)
@@ -54,6 +67,11 @@ These modifications stack with the Encounter Half and Encounter None party abili
 Prevents canceling from the actor command menus during a battle.
 Once a command has been fully chosen for a character, there is no backing up.
 Consequently, this also prevents returning to the party command menu (Fight/Escape.)
+
+## MV Only
+
+The plugins are created and tested on RPG Maker MV only.
+I do not have the newer version.
 
 ## License
 
