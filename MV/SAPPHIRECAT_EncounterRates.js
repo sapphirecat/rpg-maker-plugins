@@ -1,5 +1,5 @@
 //=============================================================================
-// SAPPHIRECAT_NoBattleCancel.js
+// SAPPHIRECAT_EncounterRates.js
 //=============================================================================
 //
 // Copyright 2022 Sapphire Cat <devel@sapphirepaw.org>
